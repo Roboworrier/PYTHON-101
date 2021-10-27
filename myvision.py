@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
-#please download image from here and save it on your device and if you change the file name then please update the new file name in code line 19 & 20. ('file name. file format')
+#please download image from below link and save it on your device and if you change the file name then please update the new file name in code line 19 & 20. ('file name. file format')
+#https://github.com/Roboworrier/PYTHON-101/blob/9602258b672f5aa71d262e419ca82d80b0dfdcb3/coins.jpg
 def av_pix(img,circles,size):
     av_value = []
     for coords in circles[0,:]:
